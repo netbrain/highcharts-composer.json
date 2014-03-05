@@ -1,0 +1,23 @@
+{
+	"name": "netbrain/highcharts-js",
+	"type": "metapackage",
+	"license":"CC-BY-NC 3.0",
+	"version": "3.0.9",
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "highslide-software/highcharts",
+				"version": "3.0.9",
+				"dist": {
+					"url": "http://code.highcharts.com/zips/Highcharts-3.0.9.zip",
+					"type": "zip"
+				}
+			}
+		}
+	],	
+	"autoload":{},
+	"require": {
+		"highslide-software/highcharts": "3.0.9"
+	}
+}
