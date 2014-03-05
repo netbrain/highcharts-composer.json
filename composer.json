@@ -1,23 +1,52 @@
 {
-	"name": "netbrain/highcharts-js",
-	"type": "metapackage",
+	"name": "netbrain/highcharts",
+	"type": "component",
+	"homepage": "http://www.highcharts.com",
+	"description": "Highcharts is a charting library written in pure HTML5/JavaScript, offering intuitive, interactive charts to your web site or web application.",
 	"license":"CC-BY-NC 3.0",
 	"version": "3.0.9",
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "highslide-software/highcharts",
-				"version": "3.0.9",
-				"dist": {
-					"url": "http://code.highcharts.com/zips/Highcharts-3.0.9.zip",
-					"type": "zip"
-				}
-			}
+	"extra": {
+		"component":{
+			"name": "highcharts",
+			"scripts": [
+				"highcharts.js"
+			],
+			"files":[
+                                "highcharts-all.js",
+                                "highcharts.src.js",
+                                "adapters/standalone-framework.src.js",
+                                "adapters/standalone-framework.js",
+                                "adapters/mootools-adapter.js",
+                                "adapters/prototype-adapter.js",
+                                "adapters/prototype-adapter.src.js",
+                                "adapters/mootools-adapter.src.js",
+                                "themes/dark-green.js",
+                                "themes/skies.js",
+                                "themes/grid.js",
+                                "themes/gray.js",
+                                "themes/dark-blue.js",
+                                "highcharts.js",
+                                "modules/no-data-to-display.js",
+                                "modules/heatmap.src.js",
+                                "modules/funnel.js",
+                                "modules/drilldown.js",
+                                "modules/data.js",
+                                "modules/exporting.src.js",
+                                "modules/canvas-tools.js",
+                                "modules/heatmap.js",
+                                "modules/no-data-to-display.src.js",
+                                "modules/drilldown.src.js",
+                                "modules/funnel.src.js",
+                                "modules/canvas-tools.src.js",
+                                "modules/annotations.src.js",
+                                "modules/data.src.js",
+                                "modules/map.src.js",
+                                "modules/annotations.js",
+                                "modules/map.js",
+                                "modules/exporting.js",
+                                "highcharts-more.js",
+                                "highcharts-more.src.js"
+			]
 		}
-	],	
-	"autoload":{},
-	"require": {
-		"highslide-software/highcharts": "3.0.9"
 	}
 }
